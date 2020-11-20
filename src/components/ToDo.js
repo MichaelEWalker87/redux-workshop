@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-const ToDo = ({ id, text, completed }) => {
+const ToDo = ({ id, todo, completed }) => {
   return (
-    <li>{text}</li>
+    <li>{todo}</li>
   )
 }
 
